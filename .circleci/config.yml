@@ -463,7 +463,7 @@ workflows:
             - orb-tools/publish-dev
           filters:
             branches:
-              only: master
+              only: main
   integration-tests:
     jobs:
       # jobs to test various commands
