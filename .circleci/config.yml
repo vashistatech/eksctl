@@ -438,7 +438,7 @@ workflows:
           requires:
             - orb-tools/pack
       - orb-tools/publish-dev:
-          orb-name: circleci/aws-eks-tg
+          orb-name: circleci/eksctl
           context: orb-publishing
           requires:
             - queue/block_workflow
